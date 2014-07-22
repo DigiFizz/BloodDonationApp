@@ -7,14 +7,16 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.viewcontroller=[[ViewController  alloc]initWithNibName:@"ViewController" bundle:nil];
+    self.window.rootViewController=self.viewcontroller;
     // Override point for customization after application launch.
-    NSLog(@"%@",@"vivek");
+//    NSLog(@"%@",@"vivek");
     
     
     self.window.backgroundColor = [UIColor whiteColor];
