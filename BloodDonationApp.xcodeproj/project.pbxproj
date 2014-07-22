@@ -19,6 +19,8 @@
 		C7CB534A197E8CE2008F7B8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CB5332197E8CE2008F7B8A /* UIKit.framework */; };
 		C7CB5352197E8CE2008F7B8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7CB5350197E8CE2008F7B8A /* InfoPlist.strings */; };
 		C7CB5354197E8CE2008F7B8A /* BloodDonationAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CB5353197E8CE2008F7B8A /* BloodDonationAppTests.m */; };
+		C7CB5360197E8CFE008F7B8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CB535E197E8CFE008F7B8A /* ViewController.m */; };
+		C7CB5361197E8CFE008F7B8A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7CB535F197E8CFE008F7B8A /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		C7CB534F197E8CE2008F7B8A /* BloodDonationAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BloodDonationAppTests-Info.plist"; sourceTree = "<group>"; };
 		C7CB5351197E8CE2008F7B8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7CB5353197E8CE2008F7B8A /* BloodDonationAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BloodDonationAppTests.m; sourceTree = "<group>"; };
+		C7CB535D197E8CFE008F7B8A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7CB535E197E8CFE008F7B8A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7CB535F197E8CFE008F7B8A /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				C7CB533D197E8CE2008F7B8A /* AppDelegate.h */,
 				C7CB533E197E8CE2008F7B8A /* AppDelegate.m */,
+				C7CB535D197E8CFE008F7B8A /* ViewController.h */,
+				C7CB535E197E8CFE008F7B8A /* ViewController.m */,
+				C7CB535F197E8CFE008F7B8A /* ViewController.xib */,
 				C7CB5340197E8CE2008F7B8A /* Images.xcassets */,
 				C7CB5335197E8CE2008F7B8A /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7CB5339197E8CE2008F7B8A /* InfoPlist.strings in Resources */,
+				C7CB5361197E8CFE008F7B8A /* ViewController.xib in Resources */,
 				C7CB5341197E8CE2008F7B8A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CB5360197E8CFE008F7B8A /* ViewController.m in Sources */,
 				C7CB533F197E8CE2008F7B8A /* AppDelegate.m in Sources */,
 				C7CB533B197E8CE2008F7B8A /* main.m in Sources */,
 			);
