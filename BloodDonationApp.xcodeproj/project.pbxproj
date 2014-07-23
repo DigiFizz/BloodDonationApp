@@ -16,6 +16,15 @@
 		C7A237B4197F74A1009401CF /* Menu_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A237B2197F74A1009401CF /* Menu_Cell.m */; };
 		C7A237B5197F74A1009401CF /* Menu_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A237B3197F74A1009401CF /* Menu_Cell.xib */; };
 		C7A237B8197F79D2009401CF /* menudemo.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A237B7197F79D2009401CF /* menudemo.png */; };
+		C7A237BD197F8855009401CF /* facebookicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A237BA197F8855009401CF /* facebookicon.png */; };
+		C7A237BE197F8855009401CF /* googleplus.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A237BB197F8855009401CF /* googleplus.png */; };
+		C7A237BF197F8855009401CF /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A237BC197F8855009401CF /* twitter.png */; };
+		C7A237C1197F8888009401CF /* register.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7A237C0197F8888009401CF /* register.jpg */; };
+		C7A237C3197F91D4009401CF /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A237C2197F91D4009401CF /* next.png */; };
+		C7A237CE197F9A60009401CF /* VCRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A237CD197F9A60009401CF /* VCRadioButton.m */; };
+		C7A237D2197FDA0F009401CF /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A237CF197FDA0F009401CF /* checkbox.png */; };
+		C7A237D3197FDA0F009401CF /* checkbox-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A237D0197FDA0F009401CF /* checkbox-pressed.png */; };
+		C7A237D4197FDA0F009401CF /* checkbox-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A237D1197FDA0F009401CF /* checkbox-checked.png */; };
 		C7CB532F197E8CE2008F7B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CB532E197E8CE2008F7B8A /* Foundation.framework */; };
 		C7CB5331197E8CE2008F7B8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CB5330197E8CE2008F7B8A /* CoreGraphics.framework */; };
 		C7CB5333197E8CE2008F7B8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CB5332197E8CE2008F7B8A /* UIKit.framework */; };
@@ -56,6 +65,16 @@
 		C7A237B2197F74A1009401CF /* Menu_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu_Cell.m; sourceTree = "<group>"; };
 		C7A237B3197F74A1009401CF /* Menu_Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Menu_Cell.xib; sourceTree = "<group>"; };
 		C7A237B7197F79D2009401CF /* menudemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menudemo.png; sourceTree = "<group>"; };
+		C7A237BA197F8855009401CF /* facebookicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookicon.png; sourceTree = "<group>"; };
+		C7A237BB197F8855009401CF /* googleplus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleplus.png; sourceTree = "<group>"; };
+		C7A237BC197F8855009401CF /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		C7A237C0197F8888009401CF /* register.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = register.jpg; sourceTree = "<group>"; };
+		C7A237C2197F91D4009401CF /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		C7A237CC197F9A60009401CF /* VCRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRadioButton.h; sourceTree = "<group>"; };
+		C7A237CD197F9A60009401CF /* VCRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRadioButton.m; sourceTree = "<group>"; };
+		C7A237CF197FDA0F009401CF /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		C7A237D0197FDA0F009401CF /* checkbox-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-pressed.png"; sourceTree = "<group>"; };
+		C7A237D1197FDA0F009401CF /* checkbox-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-checked.png"; sourceTree = "<group>"; };
 		C7CB532B197E8CE2008F7B8A /* BloodDonationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodDonationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CB532E197E8CE2008F7B8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7CB5330197E8CE2008F7B8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -104,9 +123,42 @@
 		C7A237B6197F79A8009401CF /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				C7A237CF197FDA0F009401CF /* checkbox.png */,
+				C7A237D0197FDA0F009401CF /* checkbox-pressed.png */,
+				C7A237D1197FDA0F009401CF /* checkbox-checked.png */,
+				C7A237C2197F91D4009401CF /* next.png */,
+				C7A237BA197F8855009401CF /* facebookicon.png */,
+				C7A237BB197F8855009401CF /* googleplus.png */,
+				C7A237C0197F8888009401CF /* register.jpg */,
+				C7A237BC197F8855009401CF /* twitter.png */,
 				C7A237B7197F79D2009401CF /* menudemo.png */,
 			);
 			name = Image;
+			sourceTree = "<group>";
+		};
+		C7A237B9197F8166009401CF /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				C7A237A2197F72C1009401CF /* RegisterView.h */,
+				C7A237A3197F72C1009401CF /* RegisterView.m */,
+				C7A237A4197F72C1009401CF /* RegisterView.xib */,
+				C7A237A7197F72D9009401CF /* RegistrationView1.h */,
+				C7A237A8197F72D9009401CF /* RegistrationView1.m */,
+				C7A237A9197F72D9009401CF /* RegistrationView1.xib */,
+				C7A237AC197F72F5009401CF /* RegistrationView2.h */,
+				C7A237AD197F72F5009401CF /* RegistrationView2.m */,
+				C7A237AE197F72F5009401CF /* RegistrationView2.xib */,
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
+		C7A237C4197F96CD009401CF /* Radio Button */ = {
+			isa = PBXGroup;
+			children = (
+				C7A237CC197F9A60009401CF /* VCRadioButton.h */,
+				C7A237CD197F9A60009401CF /* VCRadioButton.m */,
+			);
+			name = "Radio Button";
 			sourceTree = "<group>";
 		};
 		C7CB5322197E8CE2008F7B8A = {
@@ -142,6 +194,7 @@
 		C7CB5334197E8CE2008F7B8A /* BloodDonationApp */ = {
 			isa = PBXGroup;
 			children = (
+				C7A237C4197F96CD009401CF /* Radio Button */,
 				C7A237B6197F79A8009401CF /* Image */,
 				C7CB533D197E8CE2008F7B8A /* AppDelegate.h */,
 				C7CB533E197E8CE2008F7B8A /* AppDelegate.m */,
@@ -151,15 +204,7 @@
 				C7A237B1197F74A1009401CF /* Menu_Cell.h */,
 				C7A237B2197F74A1009401CF /* Menu_Cell.m */,
 				C7A237B3197F74A1009401CF /* Menu_Cell.xib */,
-				C7A237A2197F72C1009401CF /* RegisterView.h */,
-				C7A237A3197F72C1009401CF /* RegisterView.m */,
-				C7A237A4197F72C1009401CF /* RegisterView.xib */,
-				C7A237A7197F72D9009401CF /* RegistrationView1.h */,
-				C7A237A8197F72D9009401CF /* RegistrationView1.m */,
-				C7A237A9197F72D9009401CF /* RegistrationView1.xib */,
-				C7A237AC197F72F5009401CF /* RegistrationView2.h */,
-				C7A237AD197F72F5009401CF /* RegistrationView2.m */,
-				C7A237AE197F72F5009401CF /* RegistrationView2.xib */,
+				C7A237B9197F8166009401CF /* Registration */,
 				C7CB5340197E8CE2008F7B8A /* Images.xcassets */,
 				C7CB5335197E8CE2008F7B8A /* Supporting Files */,
 			);
@@ -270,14 +315,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A237C1197F8888009401CF /* register.jpg in Resources */,
 				C7CB5339197E8CE2008F7B8A /* InfoPlist.strings in Resources */,
+				C7A237D4197FDA0F009401CF /* checkbox-checked.png in Resources */,
 				C7A237B8197F79D2009401CF /* menudemo.png in Resources */,
 				C7A237A6197F72C1009401CF /* RegisterView.xib in Resources */,
 				C7A237AB197F72D9009401CF /* RegistrationView1.xib in Resources */,
+				C7A237BE197F8855009401CF /* googleplus.png in Resources */,
+				C7A237D2197FDA0F009401CF /* checkbox.png in Resources */,
 				C7A237B5197F74A1009401CF /* Menu_Cell.xib in Resources */,
+				C7A237BF197F8855009401CF /* twitter.png in Resources */,
 				C7CB5361197E8CFE008F7B8A /* ViewController.xib in Resources */,
 				C7A237B0197F72F5009401CF /* RegistrationView2.xib in Resources */,
+				C7A237BD197F8855009401CF /* facebookicon.png in Resources */,
 				C7CB5341197E8CE2008F7B8A /* Images.xcassets in Resources */,
+				C7A237C3197F91D4009401CF /* next.png in Resources */,
+				C7A237D3197FDA0F009401CF /* checkbox-pressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +355,7 @@
 				C7A237AA197F72D9009401CF /* RegistrationView1.m in Sources */,
 				C7A237AF197F72F5009401CF /* RegistrationView2.m in Sources */,
 				C7CB533B197E8CE2008F7B8A /* main.m in Sources */,
+				C7A237CE197F9A60009401CF /* VCRadioButton.m in Sources */,
 				C7A237B4197F74A1009401CF /* Menu_Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

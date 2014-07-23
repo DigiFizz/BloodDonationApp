@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface RegistrationView1 : UIViewController
+- (IBAction)REGISTRATION2:(id)sender;
 
 @end

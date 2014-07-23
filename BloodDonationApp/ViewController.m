@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Menu_Cell.h"
+#import "RegisterView.h"
 @interface ViewController ()
 
 @end
@@ -36,6 +37,7 @@
     }
     return self;
 }
+
 
 - (void)viewDidLoad
 {
@@ -83,6 +85,13 @@
     
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    RegisterView *registr=[[RegisterView alloc]init];
+    [self.navigationController pushViewController:registr animated:YES];
+    
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

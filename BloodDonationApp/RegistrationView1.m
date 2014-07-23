@@ -7,7 +7,7 @@
 //
 
 #import "RegistrationView1.h"
-
+#import "RegistrationView2.h"
 @interface RegistrationView1 ()
 
 @end
@@ -35,4 +35,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)REGISTRATION2:(id)sender
+{
+    RegistrationView2 *reg2=[[RegistrationView2 alloc]init];
+    [self.navigationController pushViewController:reg2 animated:YES];
+}
 @end
