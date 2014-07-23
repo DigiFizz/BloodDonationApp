@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7A237A5197F72C1009401CF /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A237A3197F72C1009401CF /* RegisterView.m */; };
+		C7A237A6197F72C1009401CF /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A237A4197F72C1009401CF /* RegisterView.xib */; };
+		C7A237AA197F72D9009401CF /* RegistrationView1.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A237A8197F72D9009401CF /* RegistrationView1.m */; };
+		C7A237AB197F72D9009401CF /* RegistrationView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A237A9197F72D9009401CF /* RegistrationView1.xib */; };
+		C7A237AF197F72F5009401CF /* RegistrationView2.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A237AD197F72F5009401CF /* RegistrationView2.m */; };
+		C7A237B0197F72F5009401CF /* RegistrationView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A237AE197F72F5009401CF /* RegistrationView2.xib */; };
+		C7A237B4197F74A1009401CF /* Menu_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A237B2197F74A1009401CF /* Menu_Cell.m */; };
+		C7A237B5197F74A1009401CF /* Menu_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A237B3197F74A1009401CF /* Menu_Cell.xib */; };
+		C7A237B8197F79D2009401CF /* menudemo.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A237B7197F79D2009401CF /* menudemo.png */; };
 		C7CB532F197E8CE2008F7B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CB532E197E8CE2008F7B8A /* Foundation.framework */; };
 		C7CB5331197E8CE2008F7B8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CB5330197E8CE2008F7B8A /* CoreGraphics.framework */; };
 		C7CB5333197E8CE2008F7B8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CB5332197E8CE2008F7B8A /* UIKit.framework */; };
@@ -34,6 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7A237A2197F72C1009401CF /* RegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterView.h; sourceTree = "<group>"; };
+		C7A237A3197F72C1009401CF /* RegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterView.m; sourceTree = "<group>"; };
+		C7A237A4197F72C1009401CF /* RegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
+		C7A237A7197F72D9009401CF /* RegistrationView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationView1.h; sourceTree = "<group>"; };
+		C7A237A8197F72D9009401CF /* RegistrationView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationView1.m; sourceTree = "<group>"; };
+		C7A237A9197F72D9009401CF /* RegistrationView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationView1.xib; sourceTree = "<group>"; };
+		C7A237AC197F72F5009401CF /* RegistrationView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationView2.h; sourceTree = "<group>"; };
+		C7A237AD197F72F5009401CF /* RegistrationView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationView2.m; sourceTree = "<group>"; };
+		C7A237AE197F72F5009401CF /* RegistrationView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationView2.xib; sourceTree = "<group>"; };
+		C7A237B1197F74A1009401CF /* Menu_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu_Cell.h; sourceTree = "<group>"; };
+		C7A237B2197F74A1009401CF /* Menu_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu_Cell.m; sourceTree = "<group>"; };
+		C7A237B3197F74A1009401CF /* Menu_Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Menu_Cell.xib; sourceTree = "<group>"; };
+		C7A237B7197F79D2009401CF /* menudemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menudemo.png; sourceTree = "<group>"; };
 		C7CB532B197E8CE2008F7B8A /* BloodDonationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodDonationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CB532E197E8CE2008F7B8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7CB5330197E8CE2008F7B8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7A237B6197F79A8009401CF /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C7A237B7197F79D2009401CF /* menudemo.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		C7CB5322197E8CE2008F7B8A = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +142,24 @@
 		C7CB5334197E8CE2008F7B8A /* BloodDonationApp */ = {
 			isa = PBXGroup;
 			children = (
+				C7A237B6197F79A8009401CF /* Image */,
 				C7CB533D197E8CE2008F7B8A /* AppDelegate.h */,
 				C7CB533E197E8CE2008F7B8A /* AppDelegate.m */,
 				C7CB535D197E8CFE008F7B8A /* ViewController.h */,
 				C7CB535E197E8CFE008F7B8A /* ViewController.m */,
 				C7CB535F197E8CFE008F7B8A /* ViewController.xib */,
+				C7A237B1197F74A1009401CF /* Menu_Cell.h */,
+				C7A237B2197F74A1009401CF /* Menu_Cell.m */,
+				C7A237B3197F74A1009401CF /* Menu_Cell.xib */,
+				C7A237A2197F72C1009401CF /* RegisterView.h */,
+				C7A237A3197F72C1009401CF /* RegisterView.m */,
+				C7A237A4197F72C1009401CF /* RegisterView.xib */,
+				C7A237A7197F72D9009401CF /* RegistrationView1.h */,
+				C7A237A8197F72D9009401CF /* RegistrationView1.m */,
+				C7A237A9197F72D9009401CF /* RegistrationView1.xib */,
+				C7A237AC197F72F5009401CF /* RegistrationView2.h */,
+				C7A237AD197F72F5009401CF /* RegistrationView2.m */,
+				C7A237AE197F72F5009401CF /* RegistrationView2.xib */,
 				C7CB5340197E8CE2008F7B8A /* Images.xcassets */,
 				C7CB5335197E8CE2008F7B8A /* Supporting Files */,
 			);
@@ -228,7 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7CB5339197E8CE2008F7B8A /* InfoPlist.strings in Resources */,
+				C7A237B8197F79D2009401CF /* menudemo.png in Resources */,
+				C7A237A6197F72C1009401CF /* RegisterView.xib in Resources */,
+				C7A237AB197F72D9009401CF /* RegistrationView1.xib in Resources */,
+				C7A237B5197F74A1009401CF /* Menu_Cell.xib in Resources */,
 				C7CB5361197E8CFE008F7B8A /* ViewController.xib in Resources */,
+				C7A237B0197F72F5009401CF /* RegistrationView2.xib in Resources */,
 				C7CB5341197E8CE2008F7B8A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,8 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7CB5360197E8CFE008F7B8A /* ViewController.m in Sources */,
+				C7A237A5197F72C1009401CF /* RegisterView.m in Sources */,
 				C7CB533F197E8CE2008F7B8A /* AppDelegate.m in Sources */,
+				C7A237AA197F72D9009401CF /* RegistrationView1.m in Sources */,
+				C7A237AF197F72F5009401CF /* RegistrationView2.m in Sources */,
 				C7CB533B197E8CE2008F7B8A /* main.m in Sources */,
+				C7A237B4197F74A1009401CF /* Menu_Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +499,7 @@
 				C7CB5359197E8CE2008F7B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7CB535A197E8CE2008F7B8A /* Build configuration list for PBXNativeTarget "BloodDonationAppTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +508,7 @@
 				C7CB535C197E8CE2008F7B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

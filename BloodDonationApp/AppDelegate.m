@@ -14,12 +14,13 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.viewcontroller=[[ViewController  alloc]initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController=self.viewcontroller;
+    self.navigation=[[UINavigationController alloc]initWithRootViewController:self.viewcontroller];
+       self.window.rootViewController=self.navigation;
     // Override point for customization after application launch.
 //    NSLog(@"%@",@"vivek");
     
-    
-    self.window.backgroundColor = [UIColor whiteColor];
+     [[UINavigationBar appearance] setBarTintColor:[UIColor redColor]];
+//    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
