@@ -128,9 +128,9 @@
 }
 
 #pragma mark - dealloc
-- (void)dealloc{
-    [self removeObserver:self forKeyPath:kObserver];
-}
+//- (void)dealloc{
+//    [self removeObserver:self forKeyPath:kObserver];
+//}
 
 #pragma mark - draw
 - (void)drawRect:(CGRect)rect{

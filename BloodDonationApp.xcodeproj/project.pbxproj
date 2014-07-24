@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C79F62661980E8C2002ED469 /* DBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C79F62651980E8C2002ED469 /* DBClass.m */; };
 		C7A237A5197F72C1009401CF /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A237A3197F72C1009401CF /* RegisterView.m */; };
 		C7A237A6197F72C1009401CF /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A237A4197F72C1009401CF /* RegisterView.xib */; };
 		C7A237AA197F72D9009401CF /* RegistrationView1.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A237A8197F72D9009401CF /* RegistrationView1.m */; };
@@ -52,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C79F62641980E8C2002ED469 /* DBClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBClass.h; sourceTree = "<group>"; };
+		C79F62651980E8C2002ED469 /* DBClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBClass.m; sourceTree = "<group>"; };
 		C7A237A2197F72C1009401CF /* RegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterView.h; sourceTree = "<group>"; };
 		C7A237A3197F72C1009401CF /* RegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterView.m; sourceTree = "<group>"; };
 		C7A237A4197F72C1009401CF /* RegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
@@ -120,6 +123,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C79F62631980E7D5002ED469 /* Webservices */ = {
+			isa = PBXGroup;
+			children = (
+				C79F62641980E8C2002ED469 /* DBClass.h */,
+				C79F62651980E8C2002ED469 /* DBClass.m */,
+			);
+			name = Webservices;
+			sourceTree = "<group>";
+		};
 		C7A237B6197F79A8009401CF /* Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +206,7 @@
 		C7CB5334197E8CE2008F7B8A /* BloodDonationApp */ = {
 			isa = PBXGroup;
 			children = (
+				C79F62631980E7D5002ED469 /* Webservices */,
 				C7A237C4197F96CD009401CF /* Radio Button */,
 				C7A237B6197F79A8009401CF /* Image */,
 				C7CB533D197E8CE2008F7B8A /* AppDelegate.h */,
@@ -352,6 +365,7 @@
 				C7CB5360197E8CFE008F7B8A /* ViewController.m in Sources */,
 				C7A237A5197F72C1009401CF /* RegisterView.m in Sources */,
 				C7CB533F197E8CE2008F7B8A /* AppDelegate.m in Sources */,
+				C79F62661980E8C2002ED469 /* DBClass.m in Sources */,
 				C7A237AA197F72D9009401CF /* RegistrationView1.m in Sources */,
 				C7A237AF197F72F5009401CF /* RegistrationView2.m in Sources */,
 				C7CB533B197E8CE2008F7B8A /* main.m in Sources */,
