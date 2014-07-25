@@ -13,5 +13,8 @@
 @property(nonatomic,retain)UIViewController *viewcontroller;
 @property(nonatomic,retain)UINavigationController *navigation;
 @property (strong, nonatomic) UIWindow *window;
+@property(nonatomic,retain)NSMutableArray *statearray;
+@property(nonatomic,retain)NSMutableDictionary *reg1Dictionary;
+
 
 @end

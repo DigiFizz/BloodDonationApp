@@ -20,8 +20,11 @@ typedef void (^RadioButtonControlSelectionBlock)(VCRadioButton *radioButton);
     NSMutableArray *stareArray;
     NSMutableArray *cityArrray;
     NSMutableArray *areaArray;
-    
+  
 }
+
+- (IBAction)hidekeyboard:(id)sender;
+
 
 - (IBAction)REGISTRATION2:(id)sender;
 @property (copy, nonatomic) RadioButtonControlSelectionBlock selectionBlock;
